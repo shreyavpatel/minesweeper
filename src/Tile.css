@@ -1,0 +1,53 @@
+.tile{
+    border-radius: 2px;
+    background-color: #CDCAD3;
+    text-align: center;
+}
+
+.tileRevealed{
+    border-radius: 2px;
+    background-color: #946082;
+    text-align: center;
+}
+
+.tileCount{
+    color: #F2EBEF;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.easy{
+    height: 50px;
+}
+
+.medium{
+    height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .easy{
+        height: 30px;
+    }
+    .medium{
+        height: 20px;
+    }
+}
+
+h3{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: grid;
+}
+
+.flag{
+    height: 95%;
+    width: auto;
+}
+
+.bomb{
+    height: 100%;
+    width: auto;
+}

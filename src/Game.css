@@ -1,0 +1,87 @@
+.game {
+  padding: 10px;
+}
+
+.board{
+  margin: 0 auto;
+  width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .board{
+    margin: 0 auto;
+    width: auto;
+  }
+  .buttonWidth{
+    min-width: 100px;
+  }
+}
+
+.game-logo, .game-logo2 {
+  height: 10vmin;
+  pointer-events: none;
+  padding: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .game-logo {
+    animation: game-logo-spin infinite 20s linear;
+  }
+  .game-logo2 {
+    animation: game-logo2-spin infinite 20s linear;
+  }
+}
+
+.game-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: "Tahoma";
+  color: #ECEBEE;
+}
+
+
+@keyframes game-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes game-logo2-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.buttons-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.difficultyButton{
+  color: #38294E;
+  background-color: #F9F8F9;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Tahoma";
+  margin: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+
+.buttonWidth{
+  min-width: 200px;
+}
+
+
