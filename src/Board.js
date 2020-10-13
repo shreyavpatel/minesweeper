@@ -118,7 +118,6 @@ class Board  extends React.Component {
         // have we hit a mine?
         if(this.state.board[row][column].isMine === true) {
             this.setState({exploded: true});
-            clearInterval(this.interval);
         }
     }
 
@@ -177,6 +176,7 @@ class Board  extends React.Component {
 
     getGameStatus = () => {
         if(this.state.exploded === true){
+            clearInterval(this.interval);
             return (
                 <div class="modal">
                     <p>You exploded a mine! You lost!</p>
@@ -185,6 +185,7 @@ class Board  extends React.Component {
             );
         }
         else if(this.state.uncovered === (this.props.rows * this.props.columns - this.props.mines)){
+            clearInterval(this.interval);
             return (
                 <div class="modal">
                     <p>Congrats, you win!!!</p>
