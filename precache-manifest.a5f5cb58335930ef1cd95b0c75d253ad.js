@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ece9124517f9a2cf93b4ebb761030262",
+    "revision": "aedae03b92cf86933551af86d5482b3b",
     "url": "/minesweeper/index.html"
   },
   {
-    "revision": "f8c37705cc1c982235ed",
+    "revision": "effcee815eaf89b84231",
     "url": "/minesweeper/static/css/main.318acf8a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minesweeper/static/js/2.dff36062.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8c37705cc1c982235ed",
-    "url": "/minesweeper/static/js/main.3b494126.chunk.js"
+    "revision": "effcee815eaf89b84231",
+    "url": "/minesweeper/static/js/main.a95d3716.chunk.js"
   },
   {
     "revision": "03fdde6e651e9bdac82d",
