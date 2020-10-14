@@ -171,7 +171,13 @@ class Board  extends React.Component {
     }
 
     resetGame = () => {
-        window.location.reload();
+        this.setState({board: this.createTileData(this.props.rows, this.props.columns)});
+        this.setState({minesSet: false});
+        this.setState({uncovered: 0});
+        this.setState({marked: 0});
+        this.setState({exploded: false});
+        this.setState({seconds: 0});
+        this.interval = 0;
     }
 
     getGameStatus = () => {
